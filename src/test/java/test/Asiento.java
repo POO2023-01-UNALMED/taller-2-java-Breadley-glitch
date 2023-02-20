@@ -1,20 +1,20 @@
 package test;
 
 public class Asiento {
-	String color;
-	int precio;
-	int regirstro;
+	public String color;
+	public int precio;
+	public int regirstro;
 	
-	void cambiarColor(String color) {
+	public void cambiarColor(String color) {
 		if (color == "rojo"){
 			this.color = "rojo";
-		}else if (color == "verde"){
+		}if (color == "verde"){
 			this.color = "verde";
-		}else if (color == "amarillo"){
+		}if (color == "amarillo"){
 			this.color = "amarillo";
-		}else if (color == "negro") {
+		}if (color == "negro") {
 			this.color = "negro";
-		}else if (color == "blanco") {
+		}if (color == "blanco") {
 			this.color = "blanco";
 		}
 	}
