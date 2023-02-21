@@ -3,7 +3,7 @@ package test;
 public class Asiento {
 	public String color;
 	public int precio;
-	public int regirstro;
+	public int registro;
 	
 	public void cambiarColor(String color) {
 		if (color == "rojo"){
